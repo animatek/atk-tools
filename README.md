@@ -1,6 +1,9 @@
 # atk-tools
 Abstractions for Max &amp; Maxforlive
 
+This repository is designed to collect my learning in the world of Max.
+The abstractions it contains are exercises that I impose on myself and also use them as reminder.
+
 Utilities created using abstractions in Max to access the LiveAPI and also to create extra functions in Max for live devices.
 
 The abstractions are developing, if you know any way to improve them, you are welcome!
@@ -33,6 +36,9 @@ The abstractions are developing, if you know any way to improve them, you are we
 * atk.testAndCreateScene
 * atk.getNotes
 * atk.procesaStep
+
+#### Hardware Controllers
+* atk.TR-8
 
 #### To Review
 * atk.Thanks
