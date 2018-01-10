@@ -8,24 +8,31 @@ The abstractions are developing, if you know any way to improve them, you are we
 
 ### List of Abstractions.
 
-* atk.changeNotes
-* atk.clipStep
-* atk.creaClipSiSlotVacio
+#### Interface Tools
 * atk.dial_blink
 * atk.dial
 * atk.doubleClick
-* atk.enviaListaStep
-* atk.getNotes
-* atk.initLiveStep
-* atk.movePosition
-* atk.noteToStep_entradas
-* atk.noteToStep
-* atk.procesaStep
 * atk.random2
 * atk.random4
+
+#### MIDI Tools
 * atk.recibeCC
-* atk.selectClip
 * atk.send1CC
 * atk.send3CC
+
+#### LiveAPI Tools
+* atk.initLiveStep
+* atk.movePosition
+* atk.enviaListaStep
+* atk.noteToStep_entradas
+* atk.noteToStep
+* atk.changeNotes
+* atk.clipStep
+* atk.creaClipSiSlotVacio
+* atk.selectClip
 * atk.testAndCreateScene
-* Thank
+* atk.getNotes
+* atk.procesaStep
+
+#### To Review
+* atk.Thanks
