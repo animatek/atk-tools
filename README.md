@@ -36,9 +36,12 @@ The abstractions are developing, if you know any way to improve them, you are we
 * atk.testAndCreateScene
 * atk.getNotes
 * atk.procesaStep
+* atk.abletonTempo | H
 
 #### Hardware Controllers
 * atk.TR-8
 
 #### To Review
 * atk.Thanks
+
+The abstractions marked with a |H| have help files.
