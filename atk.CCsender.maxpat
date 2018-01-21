@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 860.0, 288.0, 558.0, 695.0 ],
+		"rect" : [ 755.0, 167.0, 233.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.94043, 334.0, 85.0, 23.0 ],
-					"presentation_rect" : [ 310.94043, 319.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Salida de CC",
 					"textcolor" : [ 0.019608, 0.254902, 0.035294, 1.0 ]
@@ -60,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.94043, 168.0, 175.0, 56.0 ],
-					"presentation_rect" : [ 241.94043, 149.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Entrada de Controladores\ntienes que cargar algun módulo de Envio de CC\n",
 					"textcolor" : [ 0.019608, 0.254902, 0.035294, 1.0 ]
