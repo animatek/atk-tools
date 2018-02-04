@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 755.0, 167.0, 233.0, 512.0 ],
+		"rect" : [ 755.0, 167.0, 587.0, 491.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,6 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.94043, 334.0, 85.0, 23.0 ],
+					"presentation_rect" : [ 309.94043, 334.0, 85.0, 23.0 ],
 					"style" : "",
 					"text" : "Salida de CC",
 					"textcolor" : [ 0.019608, 0.254902, 0.035294, 1.0 ]
@@ -59,6 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.94043, 168.0, 175.0, 56.0 ],
+					"presentation_rect" : [ 235.94043, 168.0, 175.0, 56.0 ],
 					"style" : "",
 					"text" : "Entrada de Controladores\ntienes que cargar algun módulo de Envio de CC\n",
 					"textcolor" : [ 0.019608, 0.254902, 0.035294, 1.0 ]
@@ -73,7 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.94043, 86.0, 175.0, 39.0 ],
+					"patching_rect" : [ 170.94043, 115.0, 175.0, 39.0 ],
+					"presentation_rect" : [ 170.94043, 115.0, 175.0, 39.0 ],
 					"style" : "",
 					"text" : "Activa y desactiva el envío de Controles",
 					"textcolor" : [ 0.019608, 0.254902, 0.035294, 1.0 ]
@@ -88,6 +91,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 282.0, 39.0, 22.0 ],
+					"presentation_rect" : [ 135.0, 282.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "zl.rev"
 				}
@@ -101,7 +105,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 326.0, 30.0, 30.0 ],
+					"patching_rect" : [ 78.0, 342.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 78.0, 342.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -114,15 +119,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 135.0, 86.0, 24.0, 24.0 ],
+					"patching_rect" : [ 135.0, 122.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 135.0, 122.5, 24.0, 24.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "toggle",
-							"parameter_shortname" : "toggle",
-							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_initial" : [ 1 ],
-							"parameter_invisible" : 1
+							"parameter_shortname" : "toggle",
+							"parameter_type" : 3
 						}
 
 					}
@@ -140,6 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 164.786255, 185.0, 57.0, 22.0 ],
+					"presentation_rect" : [ 164.786255, 185.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "r ---toCC"
 				}
@@ -153,6 +160,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 235.25, 48.786255, 22.0 ],
+					"presentation_rect" : [ 135.0, 235.25, 48.786255, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -164,7 +172,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 334.0, 164.0, 22.0 ],
+					"patching_rect" : [ 135.0, 346.0, 164.0, 22.0 ],
+					"presentation_rect" : [ 135.0, 346.0, 164.0, 22.0 ],
 					"style" : "",
 					"text" : "ctlout"
 				}
@@ -179,7 +188,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 36.0, 30.0, 30.0 ],
+					"patching_rect" : [ 135.0, 73.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 135.0, 73.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
