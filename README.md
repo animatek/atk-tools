@@ -16,12 +16,19 @@ The abstractions are developing, if you know any way to improve them, you are we
 * atk.dial
 * atk.doubleClick
 * atk.random2
+* atk.random3
 * atk.random4
+* atk.random5
+* atk.random8
+
 
 #### MIDI Tools
+* atk.CCsender.maxpat
 * atk.recibeCC
 * atk.send1CC
 * atk.send3CC
+* atk.send4CC
+* atk.send5CC
 
 #### LiveAPI Tools
 * atk.initLiveStep
@@ -36,7 +43,7 @@ The abstractions are developing, if you know any way to improve them, you are we
 * atk.testAndCreateScene
 * atk.getNotes
 * atk.procesaStep
-* atk.abletonTempo | H
+* atk.abletonTempo *
 
 #### Hardware Controllers
 * atk.TR-8
@@ -44,4 +51,4 @@ The abstractions are developing, if you know any way to improve them, you are we
 #### To Review
 * atk.Thanks
 
-The abstractions marked with a |H| have help files.
+The abstractions marked with a * have help files.
