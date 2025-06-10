@@ -1,5 +1,5 @@
 # atk-tools
-Abstractions for Max &amp; Maxforlive
+Abstractions for Max &amp; Max for Live
 
 This repository is designed to collect my learning in the world of Max.
 The abstractions it contains are exercises that I impose on myself and also use them as reminder.
